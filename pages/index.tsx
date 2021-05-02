@@ -17,33 +17,33 @@ export default function Home() {
         <LatestTweet />
         <Grid>
           <Card
+            title="Candidatos"
+            description="Estamos a organizar uma lista plural de sintrenses"
+            link="/brevemente"
+          />
+          <Card
             title="Objectivos"
-            description="Eius aliquam labore neque porro neque."
-            link="/brevemente"
-          />
-          <Card
-            title="Cartazes"
-            description="Est quisquam neque etincidunt velit quaerat dolorem."
-            link="/brevemente"
-          />
-          <Card
-            title="Comunicados"
-            description="Labore est labore ipsum labore modi numquam etincidunt."
+            description="Devolver Sintra aos sintrenses e tornar o concelho um bom local para viver"
             link="/brevemente"
           />
           <Card
             title="Videos"
-            description="Labore quiquia est tempora aliquam dolorem sit."
+            description="Ajude a partilhar os vídeos desta lista"
             link="/brevemente"
           />
           <Card
-            title="Candidatos"
-            description="Sit labore est consectetur quisquam."
+            title="Comunicados"
+            description="Ajude a partilhar a nossa comunicação"
             link="/brevemente"
           />
           <Card
             title="Agenda"
-            description="Eius labore labore porro labore ut dolorem."
+            description="Participe nos nossos eventos online"
+            link="/brevemente"
+          />
+          <Card
+            title="Mediakit"
+            description="Este material é para os nossos apoiantes partilharem"
             link="/brevemente"
           />
         </Grid>
