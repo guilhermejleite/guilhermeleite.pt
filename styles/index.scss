@@ -22,7 +22,6 @@ a {
 }
 
 .container {
-  min-height: 100vh;
   padding: 0 0.5rem;
   display: flex;
   flex-direction: column;
@@ -41,4 +40,5 @@ a {
 // components
 @import "../components/Card/style.scss";
 @import "../components/Grid/style.scss";
+@import "../components/Header/style.scss";
 @import "../components/LatestTweet/style.scss";

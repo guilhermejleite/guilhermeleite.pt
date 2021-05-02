@@ -4,6 +4,7 @@
   justify-content: center;
   flex-wrap: wrap;
   max-width: 800px;
+  position: relative;
 
   @media (max-width: 600px) {
     width: 100%;

@@ -1,10 +1,9 @@
-import Image from 'next/image'
+import { Header } from '../components'
 
 export default function Brevemente() {
-  return (
+  return <>
+    <Header />
     <div className="container">
-      <img src="/logo.png" width="240px" height="186px" />
-      <p>Juntos pelos Sintrenses</p>
       <br />
       <br />
       <h1>Brevemente</h1>
@@ -14,5 +13,5 @@ export default function Brevemente() {
         &larr; Voltar
       </a>
     </div>
-  )
+  </>
 }
