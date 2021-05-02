@@ -17,17 +17,7 @@ export default function Home() {
         <LatestTweet />
         <Grid>
           <Card
-            title="Campanha dos outros"
-            description="Porro labore neque ipsum eius amet."
-            link="/brevemente"
-          />
-          <Card
-            title="As suas ideias"
-            description="Dolor dolore etincidunt aliquam velit sit."
-            link="/brevemente"
-          />
-          <Card
-            title="10 objectivos"
+            title="Objectivos"
             description="Eius aliquam labore neque porro neque."
             link="/brevemente"
           />
