@@ -23,7 +23,7 @@ export default function Home() {
           />
           <Card
             title="Objectivos"
-            description="Devolver Sintra aos sintrenses e tornar o concelho um bom local para viver"
+            description="Devolver Sintra aos sintrenses. Viver em comunidade."
             link="/brevemente"
           />
           <Card
