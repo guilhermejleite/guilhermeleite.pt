@@ -14,11 +14,11 @@ jobs:
     - uses: actions/setup-node@v1
       with:
         node-version: '12.x'
-    - run: npm install
-    - run: npm run build
-    - run: npm run export
-    - run: touch out/.nojekyll
-    - run: echo "guilhermeleite.pt" > out/CNAME
+    - run: |
+        npm install
+        npm run build
+        touch out/.nojekyll
+        echo "guilhermeleite.pt" > out/CNAME
     - uses: maxheld83/ghpages@v0.2.1
       env:
         BUILD_DIR: out/
