@@ -1,0 +1,10 @@
+.LatestTweet {
+  max-width: 600px;
+  margin-top: 4rem;
+  padding: 1.5rem;
+  width: 100%;
+  overflow: hidden;
+  iframe {
+    margin-top: -80px !important;
+  }
+}
