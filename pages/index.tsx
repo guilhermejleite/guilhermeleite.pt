@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 
 import { LatestTweet, Grid, Card } from '../components'
 
@@ -13,12 +12,7 @@ export default function Home() {
       </Head>
 
       <main className="main">
-        <Image
-          src="/logo.png"
-          alt="Nos Cidadaos"
-          width={240}
-          height={186}
-        />
+        <img src="/logo.png" width="240px" height="186px" />
         <p>Juntos pelos Sintrenses</p>
         <LatestTweet />
         <Grid>

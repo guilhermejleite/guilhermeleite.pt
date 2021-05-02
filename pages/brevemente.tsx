@@ -3,12 +3,7 @@ import Image from 'next/image'
 export default function Brevemente() {
   return (
     <div className="container">
-      <Image
-        src="/logo.png"
-        alt="Nos Cidadaos"
-        width={240}
-        height={186}
-      />
+      <img src="/logo.png" width="240px" height="186px" />
       <p>Juntos pelos Sintrenses</p>
       <br />
       <br />
