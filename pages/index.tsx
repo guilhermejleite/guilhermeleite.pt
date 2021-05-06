@@ -20,7 +20,7 @@ export default function Home() {
           <Card
             title="Videos"
             description="Ajude a partilhar os vídeos desta lista"
-            link="http://youtube.com/channel/UCkkNu3MIQI9f8IzGTioWyNw/videos"
+            link="/videos/altadefinicao"
           />
           <Card
             title="Comunicados"
