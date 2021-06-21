@@ -4,23 +4,23 @@ export default function Home() {
   return <>
     <Header />
     <div className="container">
-      <main className="main">
+      <main className="main center">
         <LatestTweet />
         <Grid>
           <Card
             title="Candidatos"
-            description="Estamos a organizar uma lista plural de sintrenses"
-            link="/brevemente"
+            description="Uma lista plural de sintrenses"
+            link="/candidatos"
           />
           <Card
-            title="Objectivos"
+            title="Programa"
             description="Devolver Sintra aos sintrenses. Viver em comunidade."
-            link="/brevemente"
+            link="/NOS-Juntos-Pelos-Sintrenses-PGL.pdf"
           />
           <Card
             title="Videos"
             description="Ajude a partilhar os vídeos desta lista"
-            link="/videos/altadefinicao"
+            link="https://www.youtube.com/playlist?list=PLFM2rShlvK9gD-GJt1ZXM2NLVL-wTX2rp"
           />
           <Card
             title="Comunicados"
