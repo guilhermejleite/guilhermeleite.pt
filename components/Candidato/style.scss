@@ -6,22 +6,27 @@
   text-decoration: none;
   transition: color 0.15s ease, border-color 0.15s ease;
 
-  &:hover,
-  &:focus,
-  &:active {
-    color: $primary;
-    border-color: $primary;
-  }
-
   h2 {
     margin: 0 0 1rem 0;
     font-size: 1.5rem;
+    color: #000;
   }
 
   p {
     margin: 0;
     font-size: 1.25rem;
     line-height: 1.5;
+    color: $secondary;
+  }
+
+  &:hover,
+  &:focus,
+  &:active {
+    color: $primary;
+    h2, p {
+      color: $primary;
+    }
+    border-color: $primary;
   }
 
   @media (max-width: 600px) {

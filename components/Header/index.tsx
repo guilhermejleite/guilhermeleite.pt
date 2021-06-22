@@ -7,7 +7,7 @@ export const Header: FC = () => {
         <img className="Header-guilhermeleite" src="/guilhermeleite.png" />
         <div className="Header-logo">
           <img src="/logo.png" />
-          <p className="Header-slogan">Juntos pelos sintrenses</p>
+          <p className="Header-slogan">Juntos Pelos Sintrenses</p>
         </div>
       </div>
       <div className="Header-subcontainer">

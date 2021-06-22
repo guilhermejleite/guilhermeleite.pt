@@ -35,7 +35,7 @@ export default function Home() {
           <Card
             title="Mediakit"
             description="Este material é para os nossos apoiantes partilharem"
-            link="/brevemente"
+            link="/mediakit.pdf"
           />
         </Grid>
         <br />
