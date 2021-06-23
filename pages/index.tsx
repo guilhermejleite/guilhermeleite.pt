@@ -26,16 +26,6 @@ export default function Home() {
             link="https://www.youtube.com/playlist?list=PLFM2rShlvK9gD-GJt1ZXM2NLVL-wTX2rp"
           />
           <Card
-            title="Comunicados"
-            description="Ajude a partilhar a nossa comunicação"
-            link="/brevemente"
-          />
-          <Card
-            title="Agenda"
-            description="Participe nos nossos eventos online"
-            link="/brevemente"
-          />
-          <Card
             title="Mediakit"
             description="Este material é para os nossos apoiantes partilharem"
             link="/mediakit.pdf"
