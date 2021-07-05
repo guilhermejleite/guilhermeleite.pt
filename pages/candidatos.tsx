@@ -9,8 +9,8 @@ export default function Home() {
       <br />
       <br />
       <Candidato name="Guilherme Leite" description="Autor, actor, Produtor de televisão na reforma e Empresário ainda no activo." />
-      <Candidato name="Elsa Freire" description="Gestora e Empresária" />
       <Candidato name="Carlos Saldanha" description="Licenciado em Comunicação Social. Produtor e organizador de eventos culturais e desportivos." />
+      <Candidato name="Elsa Freire" description="Gestora e Empresária" />
       <Candidato name="Victor Conceição" description="Empresário e dirigente associativo." />
       <Candidato name="Sónia Réquio" description="Bancária" />
       <Candidato name="Paulo Rodrigues" description="Área administrativa no Ensino Superior." />
