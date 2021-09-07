@@ -20,7 +20,7 @@ export default function Home() {
       <Candidato name="Diana Silva" description="Enfermeira de cuidados intensivos." />
       <Candidato name="Idília Silva" description="Professora" />
       <Candidato name="Hugo Carinhas" description="Empresário" />
-      <Candidato name="Márcia Daniel" description="Interprete de Língua Gestual" />
+      <Candidato name="Márcia Daniel" description="Docente de Língua Gestual" />
       <Candidato name="Patrícia Ferreira" description="Assistente administrativa" />
       <Candidato name="Carla Pina" description="Economista" />
       <Candidato name="Carina Furtado (Alexa)" description="Empregada de Comercio." />
