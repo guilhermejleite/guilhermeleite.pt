@@ -20,16 +20,6 @@ export default function Home() {
             description="Devolver Sintra aos sintrenses. Viver em comunidade."
             link="/NOS-Juntos-Pelos-Sintrenses-PGL.pdf"
           />
-          <Card
-            title="Videos"
-            description="Ajude a partilhar os vídeos desta lista"
-            link="https://www.youtube.com/playlist?list=PLFM2rShlvK9gD-GJt1ZXM2NLVL-wTX2rp"
-          />
-          <Card
-            title="Mediakit"
-            description="Este material é para os nossos apoiantes partilharem"
-            link="/mediakit.pdf"
-          />
         </Grid>
         <br />
         <br />
