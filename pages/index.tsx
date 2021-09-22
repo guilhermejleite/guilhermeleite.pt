@@ -8,7 +8,6 @@ export default function Home() {
         <br /><br />
         <p><b>DIGA AQUI</b> tudo o que nos quiser dizer:</p>
         <a style={{marginTop: -10}} href="mailto:nos@guilhermeleite.pt">nos@guilhermeleite.pt</a>
-        <LatestTweet />
         <Grid>
           <Card
             title="Candidatos"
