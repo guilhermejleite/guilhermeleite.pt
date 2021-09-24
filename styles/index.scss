@@ -52,11 +52,16 @@ a {
   width: 100%;
   height: 100%;
 }
+.img {
+  width: 100%;
+  height: auto;
+}
 
 // components
 @import "../components/Candidato/style.scss";
 @import "../components/Card/style.scss";
 @import "../components/Grid/style.scss";
 @import "../components/Header/style.scss";
+@import "../components/Intro/style.scss";
 @import "../components/LatestTweet/style.scss";
 @import "../components/Title/style.scss";

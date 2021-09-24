@@ -1,0 +1,11 @@
+.intro {
+  text-align: left;
+  font-weight: bold;
+  font-size: 20px;
+  p {
+    margin: 10px 0;
+    &.orange {
+      color: $primary;
+    }
+  }
+}
