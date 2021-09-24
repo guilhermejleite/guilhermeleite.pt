@@ -12,14 +12,14 @@ export default function Home() {
         <br />
         <Grid>
           <Card
-            title="Candidatos"
-            description="Uma lista plural de sintrenses"
-            link="/candidatos"
-          />
-          <Card
             title="Programa"
             description="Devolver Sintra aos sintrenses. Viver em comunidade."
             link="/NOS-Juntos-Pelos-Sintrenses-PGL.pdf"
+          />
+          <Card
+            title="Candidatos"
+            description="Uma lista plural de sintrenses"
+            link="/candidatos"
           />
         </Grid>
         <br />
