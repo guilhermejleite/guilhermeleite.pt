@@ -1,31 +1,27 @@
-import { Grid, Card, Header, LatestTweet, Intro } from '../components'
+import { Grid, Card, Hero } from '../components'
 
 export default function Home() {
   return <>
+    <Hero />
     <div className="container">
       <main className="main center">
-        <br /><br />
-        <Intro />
-        <br />
-        <img className="img" src="/footer.jpg" />
-        <br />
-        <br />
         <Grid>
           <Card
-            title="Programa"
-            description="Devolver Sintra aos sintrenses. Viver em comunidade."
+            intro="Candidatura a Sintra"
+            title="Ver programa"
+            description="Consulte aqui as mais de 400 propostas"
             link="/NOS-Juntos-Pelos-Sintrenses-PGL.pdf"
           />
           <Card
-            title="Candidatos"
-            description="Uma lista plural de sintrenses"
-            link="/candidatos"
+            intro="O Grande Amor da Minha Morte"
+            title="Comprar livro"
+            description="Na página da Editora Chiado pode encomendar para qualquer país"
+            link="https://www.chiadobooks.com/livraria/o-grande-amor-da-minha-morte"
           />
         </Grid>
         <br />
         <br />
-        <p><b>DIGA AQUI</b> tudo o que nos quiser dizer:</p>
-        <a style={{marginTop: -10}} href="mailto:nos@guilhermeleite.pt">nos@guilhermeleite.pt</a>
+        <a href="mailto:guilhermeleite@guilhermeleite.pt">guilhermeleite@guilhermeleite.pt</a>
         <br />
         <br />
         <br />
